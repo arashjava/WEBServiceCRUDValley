@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#BBDEFE"
+    android:layout_marginTop="1dp"
+    android:id="@+id/relativeLayout">
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:text="Id"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/compId"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:text="Company Name"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/compId"
+        android:id="@+id/compName"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Account No"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/acctNumber"
+        android:layout_toRightOf="@+id/compName"/>
+</RelativeLayout>

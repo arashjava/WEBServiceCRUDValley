@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arash.mywebservice.com.example.arash.mywebservice.CompanyAct">
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Company"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/compEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:text="Edit the company"
+        android:layout_below="@+id/company"/>
+
+    <Button
+        android:id="@+id/compDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/compEdit"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Remove the company" />
+
+
+</RelativeLayout>
