@@ -12,9 +12,9 @@ Create table Companies
 
 
 I have the PHP files copied under the PHP folder of this project, but you must move them to the “WWW” folder of your server. 
-You need set username and password of your MySQL in the PHP files, too. 
+You need to set your username and password of MySQL in the PHP files, too. 
 
-For each action of CRUD, you need to set your IP address of your computer with my IP addresses. 
+For each action of CRUD, you need to set your own IP address in the java files of the project. 
 
 
 I found the youtube clips of the following user so useful and you might find them beneficial as well:
