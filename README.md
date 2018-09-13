@@ -1,4 +1,4 @@
-In this app I used Volley, Json, PHP, Apache server and MySQL to implement CRUD.
+In this API I used Volley, Json, PHP, Apache server and MySQL to implement CRUD.
 I developed it using Android Studio under Linux Mint 18.1, and therefore I used LAMP. But almost everything would be the same
 if you develope it under Windows and have WAMP sever up and running.
 
